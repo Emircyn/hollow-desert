@@ -89,12 +89,6 @@ That said, white sand is bright by nature. Depending on the scene, 38–54% of p
 - Choose **Endless Night**, which has the most black sky.
 - Keep your monitor's own OLED care features (pixel shift, static-area dimming) enabled.
 
-## Optional: matching library thumbnail
-
-Lively shows a fixed thumbnail for each wallpaper. [`tools/hollow-desert-thumb-sync/watch.ps1`](tools/hollow-desert-thumb-sync/watch.ps1) keeps Hollow Desert's thumbnail in sync with the scene and palette you choose.
-
-It assumes the Microsoft Store version of Lively and a wallpaper folder named `hollow-desert` under `Library\SaveData\wptmp`. Adjust the paths at the top of the script for other setups. Run it once with `-Once`, or register it as a logon task to keep it running.
-
 ## Technical notes
 
 - Rendered with WebGL 1. The painted scene carries a depth map for parallax; everything else (moon, clouds, sand, motes, events) is drawn live in shaders.
