@@ -1,0 +1,157 @@
+{
+  "labelScene": {
+    "type": "label",
+    "value": "Scene"
+  },
+  "scene": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Lone Sentinel",
+      "Citadel Watch",
+      "Endless Night"
+    ],
+    "text": "Scene",
+    "help": "Which view of the desert: a great dead tree before the citadel, the citadel beyond a lone tree, or an empty sea of dunes with the most black sky (the lightest on an OLED)."
+  },
+  "palette": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Bone",
+      "Azure",
+      "Crimson"
+    ],
+    "text": "Palette",
+    "help": "The colour grade: as painted, colder blue, or a blood-dark red sky and moon halo with white sand."
+  },
+  "moonSize": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Moon size",
+    "help": "How large the crescent moon is."
+  },
+  "moonGlow": {
+    "type": "slider",
+    "value": 50,
+    "min": 10,
+    "max": 100,
+    "step": 1,
+    "text": "Moon glow",
+    "help": "How strongly the crescent's halo glows and lights the clouds near it."
+  },
+  "sand": {
+    "type": "slider",
+    "value": 50,
+    "min": 20,
+    "max": 100,
+    "step": 1,
+    "text": "Sand brightness",
+    "help": "How bright the white sand is. The default lets lit sand peak around 205-215/255; lower it to save OLED power and wear."
+  },
+  "blowing": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Blowing sand",
+    "help": "How much sand skims across the dunes and streams off the crests."
+  },
+  "motes": {
+    "type": "slider",
+    "value": 40,
+    "min": 0,
+    "max": 150,
+    "step": 10,
+    "text": "Motes",
+    "help": "How many pale motes rise slowly through the night air."
+  },
+  "wind": {
+    "type": "slider",
+    "value": 40,
+    "min": 5,
+    "max": 100,
+    "step": 1,
+    "text": "Wind",
+    "help": "How fast the sand and clouds move and how much the trees sway."
+  },
+  "labelCursor": {
+    "type": "label",
+    "value": "Cursor"
+  },
+  "depth": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Parallax depth",
+    "help": "How much the scene shifts in depth with the cursor. A slow idle drift always continues, even at 0, to protect the panel."
+  },
+  "cursorStrength": {
+    "type": "slider",
+    "value": 60,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Cursor strength",
+    "help": "How much sand your cursor lifts and swirls. Click to send a ring of dust rolling across the ground."
+  },
+  "labelMusic": {
+    "type": "label",
+    "value": "Music"
+  },
+  "reactivity": {
+    "type": "slider",
+    "value": 60,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Music reactivity",
+    "help": "How much bass sends gusts of sand and pulses the moon's halo, and how much treble makes the sand glint."
+  },
+  "labelDisplay": {
+    "type": "label",
+    "value": "Display"
+  },
+  "blackLevel": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Black level",
+    "help": "How aggressively dim tones are crushed to true black. Higher keeps more OLED pixels fully off."
+  },
+  "fpsLimit": {
+    "type": "dropdown",
+    "value": 1,
+    "items": [
+      "30 fps",
+      "60 fps",
+      "120 fps",
+      "Display refresh rate"
+    ],
+    "text": "FPS limit",
+    "help": "Caps the frame rate. 60 is smooth for this slow scene and saves power on a 240 Hz panel; 'Display refresh rate' renders every refresh."
+  },
+  "quality": {
+    "type": "slider",
+    "value": 100,
+    "min": 50,
+    "max": 100,
+    "step": 5,
+    "text": "Render quality (%)",
+    "help": "Rendering resolution. Lower it on slow PCs. Touching it turns off the automatic adjustment."
+  },
+  "diag": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Show diagnostics",
+    "help": "Shows the scene, audio, frame rate, particle counts and errors on the wallpaper, for troubleshooting."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "AppVersion": "2.2.1.0",
+  "Title": "Hollow Desert",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "An endless white desert under a starless, eternal night: a thick glowing crescent moon, pale dead trees and a vast domed citadel in the haze. Painted scenes brought to life with parallax depth, blowing sand, drifting clouds and haze, rising motes, and rare rifts, flashes and gusts. Reacts to your cursor and your music. Three scenes, three colour grades.",
+  "Author": "",
+  "License": "",
+  "Contact": "",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--audio --pause-event true",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": ["desert", "night", "moon", "dunes", "dark fantasy", "anime", "painted", "parallax", "interactive", "audio"],
+  "Version": 2
+}
